@@ -1,7 +1,7 @@
 shinyUI(fluidPage(
   titlePanel("Normal Approximation to the Poisson Distribution"),
   
-  withMathJax(), 
+  withMathJax(),  
   sidebarLayout(position = "left",
         sidebarPanel( 
                 p("The Poisson distribution takes one parameters:", 
