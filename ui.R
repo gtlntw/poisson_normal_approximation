@@ -20,7 +20,8 @@ shinyUI(fluidPage(
                                         ">" = "gt", ">=" = "geq"),
                             selected = "lt"),
                 numericInput("a", label = h5("Enter a (a = 0, 1, 2, ...): "),
-                          value = 10),                
+                          value = 10),   
+                
                 actionButton("run", "Run")
                 
         ),
